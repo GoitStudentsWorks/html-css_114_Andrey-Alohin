@@ -1,6 +1,6 @@
 /* Styles for Mobile devices */
 .container {
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
