@@ -1,5 +1,59 @@
+.header-container {
+}
 .page-header {
+  padding: 32px 0;
+}
+
+.header-nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+.logo {
+  padding: 16px 0;
+  margin-right: 366px;
+  fill: #fff;
+}
+.header-logo {
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.nav-item {
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: #fbfbfb;
+  border: 1px solid #fbfbfb;
+  border-radius: 12px;
+  padding: 12px;
+  width: 104px;
+  height: 44px;
+}
+.header-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+  border-radius: 30px;
+  padding: 16px 32px;
+  width: 157px;
+  height: 52px;
+  background-color: #7a3145;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+}
+
+.header-btn:hover {
+  background-color: #d4bfc4;
+  color: #7a3145;
 }
