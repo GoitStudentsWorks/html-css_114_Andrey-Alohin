@@ -1,79 +1,101 @@
 <section class="order">
-    <div class="container order-container">
-      <h2 class="order-title">Fresh Harvest Box has got you covered</h2>
-      <p class="order-text">
-        Our boxes are packed with delicious, nutritious vegetables, perfect for
-        anyone looking to eat healthier or support local farmers. Order your box
-        today and start enjoying the best that nature has to offer!
-      </p>
-      <div class="order-form-container">
-        <h3 class="order-form-title">
-          Ordering from us is quick and easy! Fill out the form below and we will
-          contact you !
-        </h3>
-        <form class="order-form">
-          <div class="form-field">
-            <label class="form-label"></label>
-            <div class="input-wrap">
-              <input
-                type="text"
-                name="Full Name"
-                id="Full Name"
-                class="form-input"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              />
-            </div>
+  <div class="container order-container">
+    <h2 class="order-title">
+      Fresh <span class="span-title">Harvest</span> Box has got you covered
+    </h2>
+    <p class="order-text">
+      Our boxes are packed with delicious, nutritious vegetables, perfect for
+      anyone looking to eat healthier or support local farmers. Order your box
+      today and start enjoying the best that nature has to offer!
+    </p>
+    <div class="order-form-container">
+      <h3 class="order-form-title">
+        Ordering <span class="span-form-1">from us</span> is quick and easy!
+        Fill out <span class="span-form-2">the form</span> below and we will
+        contact you !
+      </h3>
+      <form class="order-form">
+        <div class="form-field">
+          <label class="form-label" for="full-name">Full Name</label>
+          <div class="input-wrap">
+            <input
+              type="text"
+              name="full-name"
+              id="full-name"
+              class="form-input"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
           </div>
-          <div class="form-field">
-            <label class="form-label"></label>
-            <div class="input-wrap">
-              <input
-                type="email"
-                name="Email"
-                id="Email"
-                class="form-input"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              />
-            </div>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="email">Email</label>
+          <div class="input-wrap">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-input"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
           </div>
-          <div class="form-field form-field-comment">
-            <label class="form-label"></label>
-            <div class="input-wrap">
-              <textarea
-                name="Comment"
-                id="Comment"
-                placeholder="text input"
-                class="form-comment"
-              >
-              </textarea>
-            </div>
+        </div>
+        <div class="form-field-comment">
+          <label class="form-label" for="comment">Comment</label>
+          <div class="input-wrap">
+            <textarea
+              name="comment"
+              id="comment"
+              placeholder="text input"
+              class="form-comment"
+            >
+            </textarea>
           </div>
-          <button type="submit" class="form-btn">Send</button>
-        </form>
-      </div>
-      <div class="order-container-img">
-        <img />
-        <p class="order-img-text">Follow us on our social networks:</p>
-        <ul class="menu-link">
-          <li class="menu-item-link">
-            <a class="order-link" href="https://www.instagram.com/goitclub/"
-              >instagram</a
-            >
-            <p class="order-text-link">/</p>
-          </li>
-          <li class="menu-item-link">
-            <a class="order-link" href="https://www.facebook.com/goITclub/"
-              >facebook</a
-            >
-            <p class="order-text-link">/</p>
-          </li>
-          <li class="menu-item-link">
-            <a class="order-link" href="https://www.youtube.com/c/GoIT"
-              >youtube</a
-            >
-          </li>
-        </ul>
-      </div>
+        </div>
+        <button type="submit" class="form-btn">Send</button>
+      </form>
     </div>
-  </section>
-  
+    <div class="order-container-img">
+      <picture>
+        <source
+          srcset="./img-order-desktop@1x.jpg 1x, ./img-order-desktop@2x.jpg 2x"
+          media="(min-width:1280px)"
+        />
+        <source
+          srcset="./img-order-tablet@1x.jpg 1x, ./img-order-tablet@2x.jpg 2x"
+          media="(min-width:768px) and (min-width:768px)"
+        />
+        <source
+          srcset="./img-order-mobile@1x.jpg 1x, ./img-order-mobile@2x.jpg 2x"
+          media="(max-width:767px)"
+        />
+        <img
+          src="../img/img-order-mobile@1x.jpg"
+          alt="woman makes fresh"
+          width="295px"
+          class="img-order"
+        />
+      </picture>
+      <p class="order-img-text">Follow us on our social networks:</p>
+      <ul class="menu-link">
+        <li class="menu-item-link">
+          <a class="order-link" href="https://www.instagram.com/goitclub/"
+            >instagram</a
+          >
+          <p class="order-text-link">/</p>
+        </li>
+        <li class="menu-item-link">
+          <a class="order-link" href="https://www.facebook.com/goITclub/"
+            >facebook</a
+          >
+          <p class="order-text-link">/</p>
+        </li>
+        <li class="menu-item-link">
+          <a class="order-link" href="https://www.youtube.com/c/GoIT"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
