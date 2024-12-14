@@ -1,4 +1,4 @@
-/* common */
+/* common
 .container {
   max-width: 335px;
   padding: 20px 20px 20px 48px;
@@ -26,13 +26,70 @@
   justify-content: space-between;
 }
 
-.header-link,
+/* .header-link,
 .btn {
   display: none;
-}
+} */ 
 .logo-svg {
   fill: #fff;
 }
+@media only screen and (min-width: 768px) {
+  .logo-svg {
+    width: 216px;
+    height: 20px;
+  }
+}
+
+.burger-btn {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+@media only screen and (min-width: 1080px) {
+  .burger-btn {
+    display: none;
+  }
+}
+
+.burger-icon {
+  stroke-width: 3px;
+  stroke: #fbfbfb;
+}
+@media only screen and (min-width: 768px) {
+  .burger-icon {
+    width: 40px;
+    height: 40px;
+    stroke-width: 4px;}
+}
+
+/* #region Style Khavin header */
+.page-header {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  left: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .page-header {
+    right: 32px;
+    left: 32px;
+    top: 32px;}
+}
+
+.nav-li, .btn {
+  display: none;
+}
+@media only screen and (min-width: 1080px) {
+  .nav-li, .btn {
+    display: flex;
+  }
+}
+
+.logo-header {
+  display: flex;
+  padding: 8px 0;
+}
+/* #endregion */
 
 /* #region Mobile Menu */
 .mobile-menu-box {
