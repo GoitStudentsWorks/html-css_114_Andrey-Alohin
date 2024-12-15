@@ -1,0 +1,163 @@
+/* #region How it works */
+@media only screen and (min-width: 1280px) {
+  .hiw {
+    display: flex;
+  }
+}
+
+.hiw-part {
+  padding: 40px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .hiw-part {
+    padding: 100px 0;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hiw-part {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hiw .container {
+    width: 440px;
+    margin: 0 auto;
+  }
+}
+
+.hiw-image {
+  border-radius: 30px;
+  margin: 0 auto;
+  height: 452px;
+  width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hiw-image {
+    height: 640px;
+    width: 640px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hiw-image {
+    height: 560px;
+    width: 440px;
+  }
+}
+
+.descr-part {
+  background-color: #576f35;
+}
+
+@media only screen and (max-width: 767px) {
+  .descr-part {
+    padding: 80px 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .descr-part .container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+.hiw-title {
+  color: #fbfbfb;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hiw-title {
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+    margin-bottom: 24px;
+  }
+}
+
+.hiw-span {
+  color: #d4bfc4;
+}
+
+.hiw-text {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hiw-text {
+    font-size: 16px;
+    margin-bottom: 52px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hiw-text {
+    margin-bottom: 104px;
+  }
+}
+
+.hiw-list-item {
+  display: flex;
+  background-color: #fbfbfb;
+  padding: 12px 24px;
+
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+}
+
+.hiw-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hiw-list-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+li::before {
+  counter-increment: list-item;
+  content: counter(list-item);
+  font-size: 18px;
+  font-weight: 600;
+  width: 52px;
+  height: 52px;
+  background: #7a3145;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  border: 5px solid #d4bfc4;
+  color: #fbfbfb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.hiw-list-item-text,
+.hiw-list-item-text .hiw-list-item-span {
+  color: #858585;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.hiw-list-item-text .hiw-list-item-span {
+  font-weight: 700;
+  color: #141414;
+}
+
+/* #endregion */
