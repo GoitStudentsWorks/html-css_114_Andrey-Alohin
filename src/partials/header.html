@@ -1,5 +1,73 @@
 <header class="header">
-  <div class="container">
-    <h2>Header</h2>
+  <div class="container header-container">
+    <div class="desktop-not">
+      <a class="mob-link-logo" href="index.html">
+        <svg class="mob-logo" width="168" height="16">
+          <use href="img/sprite.svg#icon-logo-mobile"></use>
+        </svg>
+      </a>
+
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="32" height="32">
+          <use href="img/sprite.svg#icon-menu-mobile-burger"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-not">
+      <a class="link-main-logo" href="index.html">
+        <svg class="main-logo" width="216" height="20">
+          <use href="img/sprite.svg#icon-logo-tablet-desk"></use>
+        </svg>
+      </a>
+
+      <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="40" height="40">
+          <use href="img/sprite.svg#icon-menu-tablet-burger"></use>
+        </svg>
+      </button>
+
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-list-item">
+            <a class="header-list-link" href="#how-It-Works">How It Works</a>
+          </li>
+
+          <li class="header-list-item">
+            <a class="header-list-link" href="#vegetables">Vegetables</a>
+          </li>
+
+          <li class="header-list-item">
+            <a class="header-list-link" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <a class="header-btn" href="#">Shop now</a>
+    </div>
+  </div>
+  <!-- Mobile Menu -->
+  <div class="mobile-overlay">
+    <div class="mobile-menu-box">
+      <button class="btn-close-mob-menu" type="button">
+        <svg class="btn-close-mob-menu-icon" width="32" height="32">
+          <use href="img/sprite.svg#icon-closed-menu-burger-mobile"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item white-item">
+            <a href="#how-it-works" class="mobile-menu-link">How It Works</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#vegetables" class="mobile-menu-link">Vegetables</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a href="#reviews" class="mobile-menu-link">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#your-order" class="mobile-menu-btn">Shop now</a>
+      <!-- <button class="mobile-menu-btn" type="button">Shop now</button> -->
+    </div>
   </div>
 </header>
