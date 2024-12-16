@@ -1,5 +1,5 @@
-<section class="order">
-  <div class="order-container">
+<section class="order section">
+  <div class="order-container container">
     <div class="title-text-container">
       <h2 class="order-title">
         Fresh <span class="span-title order-title">Harvest</span> Box has got
@@ -20,44 +20,46 @@
           we will contact you !
         </h3>
         <form class="order-form">
-          <div class="form-field">
-            <label class="form-label" for="full-name"></label>
-            <div class="input-wrap">
-              <input
-                type="text"
-                name="full-name"
-                id="full-name"
-                class="form-input"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                placeholder="Full Name"
-                required
-              />
+
+          <div class="order-form-inputs">
+            <div class="form-field">
+              <label class="form-label" for="full-name"></label>
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  class="form-input"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
             </div>
-          </div>
-          <div class="form-field">
-            <label class="form-label" for="email"></label>
-            <div class="input-wrap">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                class="form-input"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                placeholder="Email"
-              />
+            <div class="form-field">
+              <label class="form-label" for="email"></label>
+              <div class="input-wrap">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  class="form-input"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  placeholder="Email"
+                />
+              </div>
             </div>
-          </div>
-          <div class="form-field-comment">
-            <label class="form-label" for="user-comment"></label>
-            <div class="input-wrap">
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Comment"
-                class="form-comment"
-                required
-              >
-              </textarea>
+            <div class="form-field-comment">
+              <label class="form-label" for="user-comment"></label>
+              <div class="input-wrap">
+                <textarea
+                  name="user-comment"
+                  id="user-comment"
+                  placeholder="Comment"
+                  class="form-comment"
+                  required
+                ></textarea>
+              </div>
             </div>
           </div>
           <button type="submit" class="form-btn">Send</button>
@@ -67,52 +69,55 @@
         <picture>
           <source
             srcset="
-              ./img/img-order-desktop@1x.jpg 1x,
-              ./img/img-order-desktop@2x.jpg 2x
+              img/img-order-desktop@1x.jpg 1x,
+              img/img-order-desktop@2x.jpg 2x
             "
             media="(min-width:1280px)"
           />
           <source
             srcset="
-              ./img/img-order-tablet@1x.jpg 1x,
-              ./img/img-order-tablet@2x.jpg 2x
+              img/img-order-tablet@1x.jpg 1x,
+              img/img-order-tablet@2x.jpg 2x
             "
             media="(min-width:768px) and (min-width:768px)"
           />
           <source
             srcset="
-              ./img/img-order-mobile@1x.jpg 1x,
-              ./img/img-order-mobile@2x.jpg 2x
+              img/img-order-mobile@1x.jpg 1x,
+              img/img-order-mobile@2x.jpg 2x
             "
             media="(max-width:767px)"
           />
           <img
-            src="../img/img-order-mobile@1x.jpg"
+            src="img/img-order-mobile@1x.jpg"
             alt="woman makes fresh"
             width="295px"
             class="img-order"
           />
         </picture>
-        <p class="order-img-text">Follow us on our social networks:</p>
-        <ul class="menu-link">
-          <li class="menu-item-link">
-            <a class="order-link" href="https://www.instagram.com/goitclub/"
-              >instagram</a
-            >
-            <p class="order-text-link">/</p>
-          </li>
-          <li class="menu-item-link">
-            <a class="order-link" href="https://www.facebook.com/goITclub/"
-              >facebook</a
-            >
-            <p class="order-text-link">/</p>
-          </li>
-          <li class="menu-item-link">
-            <a class="order-link" href="https://www.youtube.com/c/GoIT"
-              >youtube</a
-            >
-          </li>
-        </ul>
+       
+        <div class="order-img-discription">
+          <p class="order-img-text">Follow us on our social networks:</p>
+          <ul class="menu-link">
+            <li class="menu-item-link">
+              <a class="order-link" href="https://www.instagram.com/goitclub/"
+                >instagram</a
+              >
+              <p class="order-text-link">/</p>
+            </li>
+            <li class="menu-item-link">
+              <a class="order-link" href="https://www.facebook.com/goITclub/"
+                >facebook</a
+              >
+              <p class="order-text-link">/</p>
+            </li>
+            <li class="menu-item-link">
+              <a class="order-link" href="https://www.youtube.com/c/GoIT"
+                >youtube</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
