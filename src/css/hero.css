@@ -3,13 +3,20 @@
     padding: 0;
     margin: 0 auto;
 }
+
+@media screen and (min-width: 375px) {
+    .hero-section {
+        padding: 0;
+        margin: 0 auto;
+    }
+}
 @media screen and (min-width: 768px) {
     .hero-section {
             padding: 0;
             margin: 0 auto;
         }
 }
-@media screen and (min-width: 1128px) {
+@media screen and (min-width: 1280px) {
     .hero-section {
         padding: 0;
         margin: 0 auto;
@@ -18,6 +25,8 @@
 
 
 .hero-container {
+    min-width: 320px;
+    max-width: 375px;
     width: 100%;
     padding: 0;
 }
@@ -46,6 +55,8 @@
     gap: 20px;
 
     padding: 100px 20px 40px;
+    min-width: 280px;
+    min-height: 272px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -62,8 +73,6 @@
         max-width: 640px;
         padding: 232px 2px 52px 100px;
         gap: 128px;
-
-
     }
 }
 
@@ -76,6 +85,8 @@
     text-transform: uppercase;
     color: #fbfbfb;
 }
+
+
 
 @media only screen and (min-width: 768px) {
     .hero-table {
@@ -115,7 +126,7 @@
                 rgba(20, 20, 20, 0.2)),
             url('../img/hero/bg-img_mob@2x.jpg');
         min-width: 320px;
-        min-height: 372px;
+        /* min-height: 372px; */
     }
 }
 
