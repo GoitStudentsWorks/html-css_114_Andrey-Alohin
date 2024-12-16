@@ -9,15 +9,16 @@ section {
   padding: 80px 0;
 }
 
-@media screen (max-width: 375px) {
+@media screen and (min-width: 375px) {
   .container {
-      padding: 0;}
+    max-width: 335px;
+    padding: 0;
+  }
 }
-
+/* Tablet */
 @media only screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    padding: 0 32px;
+    max-width: 704px;
   }
   section {
     padding: 100px 0;
@@ -27,7 +28,6 @@ section {
 /* ----- Desktop ----- */
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
-    padding: 0 100px;
+    max-width: 1080px;
   }
 }
