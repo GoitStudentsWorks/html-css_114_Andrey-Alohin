@@ -1,18 +1,31 @@
-.section {
-    padding: 0;
-}
-
 .hero-section {
     background: #576f35;
+    padding: 0;
+    margin: 0 auto;
 }
+@media screen and (min-width: 768px) {
+    .hero-section {
+            padding: 0;
+            margin: 0 auto;
+        }
+}
+@media screen and (min-width: 1128px) {
+    .hero-section {
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
 
 .hero-container {
     width: 100%;
+    padding: 0;
 }
 
 @media only screen and (min-width: 768px) {
     .hero-container {
         max-width: 768px;
+        padding: 0;
     }
 }
 
@@ -21,6 +34,7 @@
         max-width: 1280px;
         display: flex;
         gap: 36px;
+        padding: 0;
     }
 }
 
