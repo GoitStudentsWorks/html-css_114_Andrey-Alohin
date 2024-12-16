@@ -5,6 +5,9 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+section {
+  padding: 80px 0;
+}
 
 @media screen and (min-width: 375px) {
   .container {
@@ -12,11 +15,13 @@
     padding: 0;
   }
 }
-
-/* ----- Tablet ----- */
+/* Tablet */
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 704px;
+  }
+  section {
+    padding: 100px 0;
   }
 }
 
