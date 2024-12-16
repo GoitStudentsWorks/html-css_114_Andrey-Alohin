@@ -1,4 +1,4 @@
-.header {
+/* .header {
   background-color: transparent;
   position: absolute;
   width: 100%;
@@ -148,7 +148,7 @@
   .header-list-link:active {
     background: #fbfbfb;
   }
-}
+} */
 
 /* #region Mobile Menu */
 .mobile-menu-box {
