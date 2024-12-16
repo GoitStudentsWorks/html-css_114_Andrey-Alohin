@@ -1,0 +1,141 @@
+.section-vegetables {
+    padding: 80px 0;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .section-vegetables {
+        padding: 100px 0
+    }
+}
+
+
+.container {}
+
+
+.veg-title {
+    margin-bottom: 40px;
+    max-width: 335px;
+}
+
+@media only screen and (min-width: 768px) {
+    .veg-title {
+        margin-bottom: 52px;
+        max-width: 626px;
+    }
+}
+
+
+
+.veg-subtitle {
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.01em;
+    line-height: 52px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .veg-subtitle {
+        font-size: 64px;
+        Line-height: 64px;
+        margin-bottom: 24px;
+    }
+}
+
+.text-accent {
+    color: #d4bfc4;
+}
+
+
+.veg-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .veg-text {
+        font-size: 16px;
+    }
+}
+
+.veg-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .veg-list {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 28px 24px;
+
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .veg-list {
+        justify-content: flex-start;
+    }
+}
+
+
+
+.veg-item {
+    padding: 32px 24px;
+    background-color: #FBFBFB;
+
+    min-width: 335px;
+
+    border-radius: 40px;
+    border: 1px solid transparent;
+}
+
+.veg-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+
+.veg-name {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #7A3145;
+}
+
+@media only screen and (min-width: 768px) {
+    .veg-name {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+
+
+.veg-price {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #141414;
+}
+
+@media only screen and (min-width: 768px) {
+    .veg-price {
+        font-size: 16px;
+    }
+}
+
+
+.veg-img {
+    margin: 0 auto;
+}
