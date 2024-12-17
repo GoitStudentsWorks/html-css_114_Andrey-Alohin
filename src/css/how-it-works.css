@@ -25,7 +25,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .image-part .container {
+  .hiw .image-part .container {
     margin-right: 100px;
     margin-left: auto;
   }
@@ -78,7 +78,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .descr-part .container {
+  .hiw .descr-part .container {
     margin-right: auto;
     margin-left: 100px;
   }
