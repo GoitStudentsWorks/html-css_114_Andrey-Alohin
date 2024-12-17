@@ -1,0 +1,152 @@
+footer a {
+  text-decoration: none;
+}
+footer {
+  background-color: #7a3145;
+}
+.footer-main {
+  padding: 40px 0;
+}
+.footer-logo-box {
+  margin-bottom: 40px;
+}
+.footer-logo {
+  height: 16px;
+  display: block;
+  margin-bottom: 14px;
+}
+.footer-mob-logo {
+  width: 168px;
+  height: 16px;
+  fill: #fbfbfb;
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
+  max-width: 335px;
+}
+.footer-menu {
+  margin-bottom: 40px;
+}
+.footer-menu-list {
+  margin-bottom: 14px;
+}
+.footer-menu-list:nth-child(3) {
+  margin-bottom: 0px;
+}
+.footer-menu-item {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
+}
+.footer-address {
+  margin-bottom: 80px;
+}
+.footer-contacts {
+  max-width: 179px;
+}
+.footer-contacts-item:nth-child(1) {
+  margin-bottom: 14px;
+}
+.footer-contacts-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 143%;
+  color: #fbfbfb;
+  font-style: normal;
+  margin-bottom: 14px;
+}
+.footer-contacts-link:nth-child(2) {
+  margin-bottom: 0;
+}
+.footer-policy-link {
+  margin-bottom: 16px;
+}
+.footer-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  color: #d4bfc4;
+}
+.footer-policy-link span {
+  padding: 0 8px;
+}
+@media screen and (min-width: 768px) {
+  .footer-main {
+    padding: 32px 0;
+  }
+  .footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .footer-links-wrapper {
+  }
+  .footer-text {
+    max-width: 265px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .footer-mob-logo {
+    width: 216px;
+    height: 20px;
+    margin-bottom: 24px;
+  }
+  .footer-menu {
+    margin-bottom: 64px;
+  }
+  .footer-menu-list {
+    margin-bottom: 24px;
+  }
+  .footer-contacts-item:nth-child(1) {
+    margin-bottom: 24px;
+  }
+  .footer-contacts-link {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .footer-link {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .footer-policy {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-policy-link {
+    margin-bottom: 0;
+  }
+
+  .footer-address {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer-main {
+    padding: 52px 0;
+  }
+  .footer-wrapper {
+    margin-bottom: 124px;
+  }
+  .footer-logo-box {
+    margin-bottom: 0;
+  }
+  .footer-links-wrapper {
+    display: flex;
+    gap: 121px;
+  }
+  .footer-menu {
+    margin-bottom: 0;
+  }
+  .footer-policy-link {
+    margin-bottom: 0;
+  }
+  .footer-policy-link span {
+    padding: 0 12px;
+  }
+}
