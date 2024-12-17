@@ -23,6 +23,14 @@
 .image-part {
   background-color: transparent;
 }
+
+@media only screen and (min-width: 1280px) {
+  .image-part .container {
+    margin-right: 100px;
+    margin-left: auto;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
   .hiw .container {
     max-width: 440px;
@@ -61,10 +69,18 @@
     padding: 80px 0;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
   .descr-part .container {
     padding-left: 100px;
     padding-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .descr-part .container {
+    margin-right: auto;
+    margin-left: 100px;
   }
 }
 
