@@ -20,11 +20,14 @@
     width: 50%;
   }
 }
-
+.image-part {
+  background-color: transparent;
+}
 @media only screen and (min-width: 1280px) {
   .hiw .container {
-    width: 440px;
+    max-width: 440px;
     margin: 0 auto;
+    padding: 0;
   }
 }
 
@@ -115,7 +118,7 @@
   padding: 12px 24px;
 
   align-items: center;
-  gap: 10px;
+  gap: 24px;
   border-radius: 15px;
 }
 
@@ -129,7 +132,7 @@
   }
 }
 
-li::before {
+.hiw-list-item::before {
   counter-increment: list-item;
   content: counter(list-item);
   font-size: 18px;
@@ -144,13 +147,12 @@ li::before {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 24px;
 }
 
 .hiw-list-item-text,
 .hiw-list-item-text .hiw-list-item-span {
   color: #858585;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
 }
