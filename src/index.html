@@ -43,16 +43,22 @@
   <script>
     (() => {
     const refs = {
-      openMobileBtn: document.querySelector("[data-mobile-open]"),
+      openMobileBtns: document.querySelectorAll("[data-mobile-open]"),
       closeMobileBtn: document.querySelector("[data-mobile-close]"),
       mobile: document.querySelector("[data-mobile]"),
     };
-    refs.openMobileBtn.addEventListener("click", toggleMobile);
+
+    refs.openMobileBtns.forEach(btn => {
+      btn.addEventListener("click", toggleMobile);
+    });
+    
     refs.closeMobileBtn.addEventListener("click", toggleMobile);
+
     function toggleMobile() {
       refs.mobile.classList.toggle("is-open");
     }
-  })();
+})();
+
   </script>
 </body>
 
