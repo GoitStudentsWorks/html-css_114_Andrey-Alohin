@@ -102,8 +102,7 @@
     font-size: 16px;
     line-height: 1.25;
   }
-  .reviews-info,
-  .reviews-card {
+  .reviews-info {
     margin-bottom: 52px;
   }
   .reviews-user-comment {
