@@ -1,7 +1,7 @@
 footer a {
   text-decoration: none;
 }
-footer {
+.footer-main {
   background-color: #7a3145;
 }
 .footer-main {
@@ -85,7 +85,12 @@ footer {
     justify-content: space-between;
     margin-bottom: 100px;
   }
-  .footer-links-wrapper {
+  .footer-logo-box {
+    margin-bottom: 0;
+  }
+  .footer-logo {
+    margin-bottom: 24px;
+    height: 20px;
   }
   .footer-text {
     max-width: 265px;
@@ -95,13 +100,15 @@ footer {
   .footer-mob-logo {
     width: 216px;
     height: 20px;
-    margin-bottom: 24px;
   }
   .footer-menu {
     margin-bottom: 64px;
   }
   .footer-menu-list {
     margin-bottom: 24px;
+  }
+  .footer-contacts {
+    max-width: 216px;
   }
   .footer-contacts-item:nth-child(1) {
     margin-bottom: 24px;
@@ -133,9 +140,7 @@ footer {
   .footer-wrapper {
     margin-bottom: 124px;
   }
-  .footer-logo-box {
-    margin-bottom: 0;
-  }
+
   .footer-links-wrapper {
     display: flex;
     gap: 121px;
