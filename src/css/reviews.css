@@ -23,7 +23,6 @@
 }
 .reviews-text {
   font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
   color: #141414;
@@ -46,6 +45,9 @@
   height: 56px;
   margin: 0 auto 24px;
 }
+.reviews-card-info {
+  width: 288px;
+}
 .reviews-card-user {
   font-family: 'Inter Tight', sans-serif;
   font-weight: 600;
@@ -59,7 +61,6 @@
 }
 .reviews-user-comment {
   font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.42857;
   text-align: center;
@@ -85,7 +86,7 @@
     gap: 24px;
   }
   .reviews-card-item {
-    width: 340px;
+    flex-basis: calc((100% - 24px) / 2);
   }
   .reviews-card-item.not-mobile {
     display: block;
@@ -129,14 +130,12 @@
     display: block;
   }
   .reviews-card-item {
-    width: 344px;
+    flex-basis: calc((100% - 24px* 2) / 3);
   }
   .reviews-title {
-    width: 553px;
     margin-bottom: 24px;
   }
   .reviews-text {
-    width: 553px;
     margin-bottom: 52px;
   }
 }
