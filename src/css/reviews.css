@@ -27,7 +27,9 @@
   font-size: 14px;
   line-height: 1.42857;
   color: #141414;
-  /* margin-bottom: 40px; */
+}
+.reviews-info {
+  margin-bottom: 40px;
 }
 .reviews-card-item {
   border: 1px solid #d4bfc4;
