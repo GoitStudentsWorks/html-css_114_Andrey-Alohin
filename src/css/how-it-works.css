@@ -103,9 +103,9 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1279px) {
-  .descr-part .container {
-    padding-left: 100px;
-    padding-right: 100px;
+  .descr-container {
+    max-width: 440px;
+    padding: 0;
   }
 }
 
@@ -163,7 +163,7 @@
 .hiw-list-item {
   display: flex;
   background-color: #fbfbfb;
-  padding: 12px 24px;
+  padding: 12px 15px 12px 24px;
 
   align-items: center;
   gap: 24px;
@@ -203,6 +203,13 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hiw-list-item-text,
+  .hiw-list-item-text .hiw-list-item-span {
+    font-size: 16px;
+  }
 }
 
 .hiw-list-item-text .hiw-list-item-span {
