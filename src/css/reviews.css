@@ -46,7 +46,7 @@
   margin: 0 auto 24px;
 }
 .reviews-card-info {
-  width: 288px;
+  max-width: 288px;
 }
 .reviews-card-user {
   font-family: 'Inter Tight', sans-serif;
@@ -65,7 +65,6 @@
   line-height: 1.42857;
   text-align: center;
   color: #858585;
-  width: 288px;
 }
 /* /Styles for Mobile devices */
 
