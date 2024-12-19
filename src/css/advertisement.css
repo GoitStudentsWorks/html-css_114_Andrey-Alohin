@@ -14,6 +14,7 @@
 
 .wrapper-text {
     position: relative;
+    z-index: 0;
     display: inline-block;
     font-family: "Inter Tight", sans-serif;
     font-weight: 600;
@@ -22,17 +23,18 @@
     letter-spacing: -0.01em;
     text-transform: uppercase;
     color: #fbfbfb;
-    border-radius: 12px;
-    background: #576f35;
 }
 
 .wrapper-text::after {
     position: absolute;
+    content: '';
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1;
+    border-radius: 12px;
+    background: #576f35;
 }
 
 @media screen and (min-width: 768px) {
@@ -55,7 +57,7 @@
     .wrapper-text::after {
         top: -20px;
         height: 86px;
-        width: 675px;
+        width: 680px;
     }
 }
 
@@ -76,7 +78,7 @@
     }
 
     .wrapper-text::after {
-        width: 808px;
+        width: 818px;
         height: 84px;
         top: -4px;
         left: -16px;
