@@ -68,6 +68,14 @@ footer a {
   color: #fbfbfb;
   font-style: normal;
   margin-bottom: 14px;
+  border-radius: 10px;
+  transition: background-color 250ms ease-in,
+              color 250ms ease-in;
+}
+.footer-contacts-link:hover,
+.footer-contacts-link:focus {
+  background-color: #d4bfc4;
+  color: #7a3145;
 }
 .footer-contacts-link:nth-child(2) {
   margin-bottom: 0;
