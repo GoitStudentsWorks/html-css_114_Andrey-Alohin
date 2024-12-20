@@ -54,9 +54,15 @@
     flex-direction: column;
     gap: 20px;
 
-    padding: 100px 20px 40px;
+    padding: 100px 5px 40px;
     min-width: 280px;
     min-height: 272px;
+}
+
+@media only screen and (min-width: 375px) {
+    .hero-wrapper-box {
+        padding: 120px 20px 52px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
