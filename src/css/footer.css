@@ -43,6 +43,14 @@ footer a {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  border-radius: 10px;
+  transition: background-color 250ms ease-in,
+              color 250ms ease-in;
+}
+.footer-menu-item:hover,
+.footer-menu-item:focus {
+  background-color: #d4bfc4;
+  color: #7a3145;
 }
 .footer-address {
   margin-bottom: 80px;

@@ -215,6 +215,14 @@
   letter-spacing: -0.27px;
   text-align: left;
   text-transform: uppercase;
+  border-radius: 3px;
+  transition: background-color 250ms ease-in,
+              color 250ms ease-in;
+}
+.order-link:hover, 
+.order-link:focus {
+  background-color: #d4bfc4;
+  color: #7a3145;
 }
 .order-text-link {
   color: #fbfbfb;

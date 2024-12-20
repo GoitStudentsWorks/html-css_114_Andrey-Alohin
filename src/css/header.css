@@ -306,3 +306,8 @@
     background-color: rgba(20, 20, 20, 0.4);
   }
 }
+@media screen and (min-width: 1280px) {
+  .mobile-overlay{
+    display: none;
+  }
+}
